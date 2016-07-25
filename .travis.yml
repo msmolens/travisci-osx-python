@@ -1,0 +1,16 @@
+matrix:
+  include:
+    - os: osx
+      language: generic
+      python: 2.7
+      env: PYTHONVERSION=2.7.12
+    - os: osx
+      language: generic
+      python: 3.5
+      env: PYTHONVERSION=3.5.2
+
+before_install:
+  - ./install.sh
+
+script:
+  - ./run.sh
