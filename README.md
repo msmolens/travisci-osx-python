@@ -1,11 +1,9 @@
-travisci-osx-python
-===================
+# travisci-osx-python [![Build Status](https://travis-ci.org/msmolens/travisci-osx-python.svg?branch=master)](https://travis-ci.org/msmolens/travisci-osx-python)
 
 Example project that demonstrates using multiple versions of Python on [Travis
 CI] (https://github.com/travis-ci/travis-ci) with OS X workers.
 
-Overview
---------
+## Overview
 
 As of this writing, Travis CI doesn't support Python builds on OS X. That is,
 specifying `os: osx` and `language: python` in `.travis.yml` results in an error
